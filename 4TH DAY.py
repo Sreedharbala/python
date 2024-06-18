@@ -1,4 +1,4 @@
-camera={"sony":600,"nikon":650,"canon":650}
+# camera={"sony":600,"nikon":650,"canon":650}
 # print(camera.values())
 # print(camera.keys())
 #
@@ -6,7 +6,7 @@ camera={"sony":600,"nikon":650,"canon":650}
 # print(copycamera)
 # del camera["sony"]
 # print(camera)
-camera.clear()
+# camera.clear()
 # print(camera)
 # marks=89
 # attendance=95
@@ -56,3 +56,25 @@ camera.clear()
 #     print("he got first class")
 # else:
 #     print("he failed")
+
+b = "python life"
+for nM in b:
+    print(nM)
+
+while False:
+    print("hi")
+
+for i in range(0,20,3) :
+    print(i)
+
+count = 15
+while (count < 20):
+    count += 2
+    print("hello while loop")
+
+count = 0
+while (count < 3):
+    count = count +1
+    print("hello while2", count)
+else:
+    print("in else block")

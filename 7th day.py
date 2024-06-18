@@ -1,11 +1,11 @@
 #functions
-#a function is named block of rreusable code that performs a specific task
+#a function is named block of reusable code that performs a specific task
 # 1.BUILTIN FUNCTION:
-#these are the part of pyhton language eg-print(),len(),type()
+#these are the part of python language eg-print(),len(),type()
 #2.user-defined function:function created by the user.we can define them using "def" keyword
-#3.ANONYMOUS FUNCION(LAMBDA FUNCTION)this is defined using 'lambda keyword'
+#3.ANONYMOUS FUNCTION(LAMBDA FUNCTION)this is defined using 'lambda keyword'
 #4.RECURSIVE-FUNCTION:a function which that calls itself during execution
-#5.GENERATOR FUNCTION:function that use the'yeild' keyword to produce a sequence of values
+#5.GENERATOR FUNCTION:function that use the'yield' keyword to produce a sequence of values
 #6.HIGHERORDER FUNCTIONS:function that takes other functions as argument or return functions.
 
 #def functionname():
@@ -20,9 +20,9 @@
 #     print("hello,"+ name  +"!")
 # greet("sreedhar")
 
-# def name(c):
-#     print("hi," + c + ".")
-# name("sreedhar")
+def name(c):
+    print("hi," + c + ".")
+name("sreedhar")
 
 
 # def calculate(length,width):
@@ -42,4 +42,15 @@ rectangle_area = rectangle_length * rectangle_width;
 print(f"the area of rectangle is:{rectangle_area}")
 print("area of rectangle is:{}".format(rectangle_area))
 
-def fun_name(kid):
+def fun_name(name):
+    print("hello")
+    print("hi")
+fun_name("sreedhar")
+
+
+def full_name(name):
+    return print(name)
+full_name("bye")
+
+
+

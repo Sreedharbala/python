@@ -15,19 +15,19 @@
 
 #how to use a lambda function inside userdefined function
 
-def classroom(n):
-    square = lambda x : x + n
-    return square
-demo = classroom(20)
-print(demo(40))
+# def classroom(n):
+#     square = lambda x : x + n
+#     return square
+# demo = classroom(20)
+# print(demo(40))
 
-# def multiplier(n):
-#     multiply = lambda x : x * n
-#
-#     return multiply
-# multiplier_by_5=multiplier(5)
-# print(multiplier_by_5(10))
-# print(multiplier_by_5(20))
+def multiplier(n):
+    multiply = lambda x : x * n
+
+    return multiply
+multiplier_by_5=multiplier(5)
+print(multiplier_by_5(10))
+print(multiplier_by_5(20))
 
 #modules
 #packages are collection of modules

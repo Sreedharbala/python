@@ -48,35 +48,38 @@
 # for i in range(5,11):
 #   print(b,"x",i,"=",b*i)
 
-fruits={"konda":450,"banda":550,"jenda":650}
-for i  in fruits:
-  print(i)
+# fruits={"konda":450,"banda":550,"jenda":650}
+# for i  in fruits:
+#   print(i)
 
 # for number in range(1,20):
 #     print(number)
 # for i in fruits:
-#   print(i[::-1])
+# print(i[::-1])
 
 # temp=98
 # while temp<=98 and temp>=87:
 #   print("room temperature is maintained")
 
 
-# i=6
-# while i<=5 and i<=10:
-#   print("the value is ok")
-#   i=i+10
-#   print("the total value is:{}".format(i))
-# while False:
-#   print("loop runs forever")
+i=6
+while i<=5 and i<=10:
+  print("the value is ok")
+  i=i+10
+  print("the total value is:{}".format(i))
+while False:
+  print("loop runs forever")
 
-# i = 0
-# while i < 6:
-#   i += 1
-#   if i == 3:
-#     continue
-#   print(i)
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
 
 
 # for x in range(8):
 #   print(x)
+
+
+

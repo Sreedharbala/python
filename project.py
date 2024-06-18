@@ -26,29 +26,36 @@ print("enter 1 to create a new account")
 print("enter 2 to open an existing account")
 print("enter 3 to exit")
 a = int(input());
-if a==1:
-    print("enter your name:")
-    str(input())
-    print("enter your first deposit amount:")
-    int(input())
-    print("your account no is:",random.randint(100000,999999))
-    b = int(input())
-    if b==2:
-        print("Enter your name:")
+
+value = "Y";
+b=int(input)
+while value == "Y":
+    if a==1:
+        print("enter your name:")
         str(input())
-        print("Enter your account number")
+        print("enter your first deposit amount:")
+        int(input())
+        print("your account no is:",random.randint(100000,999999))
+        b = int(input())
+        if b==2:
+            print("Enter your name:")
+            str(input())
+            print("Enter your account number")
+            int(input())
+            print("Authentication successful")
+        elif b == 3:
+            print("")
+    if a==2:
+        print("enter your name")
+        str(input())
+        print("Enter your account number:")
         int(input())
         print("Authentication successful")
-    elif b == 3:
+    elif a==3:
         print("")
-elif a==2:
-    print("enter your name")
-    str(input())
-    print("Enter your account number:")
-    int(input())
-    print("Authentication successful")
-elif a==3:
-    print("")
+
+    print("if you want again the menu enter value 'Y' ")
+    input()
     # else:
     #     print("enter something")
 # class BankAccount :

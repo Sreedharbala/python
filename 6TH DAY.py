@@ -6,9 +6,9 @@
 #         number=number+1
 #     print()
 #exception handling
-# length=0
-#  width=45
-# length/width
+length=0
+width=45
+length/width
 try:
 
     width=4
@@ -21,6 +21,7 @@ except ZeroDivisionError:
     print("division by zero is not valid!kindly change your input")
 # except Exception:
 #     print("have caught a new error")
+
 finally:
     print("finally block executed")
 
